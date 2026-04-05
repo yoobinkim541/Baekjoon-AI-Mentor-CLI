@@ -28,3 +28,16 @@
 ### 2. 라이브러리 설치
 ```bash
 pip install google-genai
+```
+
+## 🚀 기능 시연
+<img width="1583" height="304" alt="image" src="https://github.com/user-attachments/assets/282e7128-6977-4395-9b85-d741a252993f" />
+* CLI를 백준 파일이 있는 폴더에 옮긴 후 gemini API 키를 먹이면 이와 같은 시작 화면을 볼 수 있습니다
+* 명령어에 파일 확장자가 탐색되면 하위폴더에서 파일을 찾은 다음에 gemini에게 전달하여 간편한 코드 리뷰가 가능하게 구현하였습니다
+  <img width="1798" height="222" alt="image" src="https://github.com/user-attachments/assets/0e980d79-d103-4264-b4a9-82b217aa3a6a" />
+  <img width="3073" height="480" alt="image" src="https://github.com/user-attachments/assets/4ecb1d98-0cdc-4c9f-b8af-6b152791acf2" />
+  * gemini 맨토가 코드를 읽고 피드백을 하는 것을 시연해보았다
+  <img width="3072" height="251" alt="image" src="https://github.com/user-attachments/assets/c3628d78-a5b1-4a68-b2f5-6c949f5539c5" />
+  * 리뷰 후 개선점을 전달하여 직접 고민해 볼 수 있도록 설계하였다
+
+
