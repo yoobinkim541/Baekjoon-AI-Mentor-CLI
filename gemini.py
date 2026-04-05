@@ -44,8 +44,8 @@ def find_file(target_filename, search_base_path):
             return os.path.join(root, target_filename)
     return None
 
-# [핵심 변경점] 하드코딩된 경로 대신, CLI를 실행한 '현재 작업 폴더'를 기준으로 삼습니다.
-# 이제 누구나 자신의 프로젝트 폴더에서 실행하면 알아서 해당 폴더를 뒤집니다.
+# CLI를 실행한 '현재 작업 폴더'를 기준으로 삼습니다.
+# 누구나 자신의 프로젝트 폴더에서 실행하면 알아서 해당 폴더를 뒤집니다.
 base_path = os.path.abspath(os.path.join(os.getcwd(), ".."))
 
 # ==========================================
