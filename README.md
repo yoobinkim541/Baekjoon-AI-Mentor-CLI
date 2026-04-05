@@ -27,7 +27,7 @@
 * Google Gemini API Key (무료 발급 가능)
 
 ### 2. 라이브러리 설치
-```bash
+Bash
 pip install google-genai
 
 ### 3. API 키 설정 (환경 변수)
