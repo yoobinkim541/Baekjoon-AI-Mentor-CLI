@@ -29,3 +29,20 @@
 ### 2. 라이브러리 설치
 ```bash
 pip install google-genai
+
+### 3. API 키 설정 (환경 변수)
+보안을 위해 소스코드에 API 키를 직접 입력하지 않고 환경 변수를 사용합니다.
+
+Windows (PowerShell):
+
+PowerShell
+$env:GEMINI_API_KEY="발급받은_API_키"
+Mac / Linux:
+
+Bash
+export GEMINI_API_KEY="발급받은_API_키"
+4. 실행
+터미널에서 프로젝트 폴더로 이동한 후 아래 명령어를 입력합니다.
+
+Bash
+python gemini_cli.py
